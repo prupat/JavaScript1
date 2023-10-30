@@ -1,0 +1,37 @@
+#map {
+    height: 600px;
+    width: 100%;
+    border: 1px solid #ccc;
+    background-color: #f5f5f5;
+}
+
+/* Customize the popup content */
+.leaflet-popup-content {
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* Style the popup close button */
+.leaflet-popup-close-button {
+    display: none; /* or customize its appearance */
+}
+
+/* Customize the marker icon */
+.leaflet-marker-icon {
+    width: 30px;
+    height: 30px;
+    background-color: #0074D9;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    color: #fff;
+    text-align: center;
+    line-height: 30px;
+}
+
+/* Customize the marker's shadow */
+.leaflet-marker-shadow {
+    display: none; /* or customize its appearance */
+}
